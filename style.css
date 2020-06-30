@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    height: 90px;
+}
+
+.navbar-title {
+    float: left;
+    font-size: 36px;
+    font-style: bold;
+    padding: 25px 40px;
+    color: #fff;
+}
+
+.navbar-list {
+    float: left;
+    list-style: none;
+    margin: auto;
+}
+
+.navbar-list li {
+    float: left;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.navbar-list a {
+    color: #fff;
+}
+
+a:hover {
+    color: aqua;
+    transition: 0.5s;
+}
